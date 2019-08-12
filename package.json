@@ -1,0 +1,32 @@
+{
+  "name": "travis-webhint",
+  "version": "1.0.0",
+  "description": "Example to run webhint on travis",
+  "main": "index.js",
+  "scripts": {
+    "test": "hint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarvaje/travis-webhint.git"
+  },
+  "keywords": [
+    "webhint",
+    "travis"
+  ],
+  "author": "Sarvaje",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarvaje/travis-webhint/issues"
+  },
+  "homepage": "https://github.com/sarvaje/travis-webhint#readme",
+  "dependencies": {
+    "@hint/configuration-development": "^7.0.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@hint/formatter-html": "^4.1.2",
+    "@hint/parser-html": "^3.0.4",
+    "hint": "^5.2.0"
+  }
+}

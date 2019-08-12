@@ -59,3 +59,9 @@ typings/
 
 # next.js build output
 .next
+
+# vscode config
+.vscode
+
+# hint html formatter results.
+hint-report/
