@@ -1,6 +1,3 @@
 {
-    "extends": ["development"],
-    "hints": {
-        "axe/text-alternatives": "off"
-    }
+    "extends": ["web-recommended"]
 }

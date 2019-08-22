@@ -1,3 +1,12 @@
 language: node_js
 node_js:
 - 10.16.2
+
+addons:
+  chrome: stable
+before_install:
+  - 
+script:
+  - npm install http-server --no-save
+  - http-server &
+  - npm run test

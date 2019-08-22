@@ -4,7 +4,8 @@
   "description": "Example to run webhint on travis",
   "main": "index.js",
   "scripts": {
-    "test": "hint ./"
+    "start": "node index.js",
+    "test": "hint http://localhost:8080/html2/ --debug"
   },
   "repository": {
     "type": "git",
@@ -21,12 +22,12 @@
   },
   "homepage": "https://github.com/sarvaje/travis-webhint#readme",
   "dependencies": {
-    "@hint/configuration-development": "^7.0.3",
+    "@hint/configuration-web-recommended": "^7.0.4",
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "@hint/formatter-html": "^4.1.2",
-    "@hint/parser-html": "^3.0.4",
-    "hint": "^5.2.0"
+    "@hint/formatter-html": "^4.1.3",
+    "@hint/parser-html": "^3.0.5",
+    "hint": "^5.2.1"
   }
 }
