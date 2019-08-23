@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "hint http://localhost:8080/html2/ --debug"
+    "test": "hint https://webhint.io --debug"
   },
   "repository": {
     "type": "git",
