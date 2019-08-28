@@ -1,12 +1,7 @@
-language: node_js
-node_js:
-- 10.16.2
+language: python
 
-addons:
-  chrome: stable
-before_install:
-  - 
 script:
-  - npm install http-server --no-save
-  - http-server &
-  - npm run test
+  - node -v
+  - npm -v
+  - npm install hint --no-save
+  - node node_modules/hint/dist/src/bin/hint.js ./ --debug
