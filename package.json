@@ -1,0 +1,25 @@
+{
+  "name": "travis-webhint",
+  "version": "1.0.0",
+  "description": "Test how to integrate webhint with travis.",
+  "main": "index.js",
+  "scripts": {
+    "test": "hint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarvaje/travis-webhint.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarvaje/travis-webhint/issues"
+  },
+  "homepage": "https://github.com/sarvaje/travis-webhint#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "hint": "^5.2.1"
+  }
+}

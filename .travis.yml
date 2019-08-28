@@ -1,7 +1,7 @@
-language: python
+language: node_js
+node_js:
+- 10.16.2
 
 script:
-  - node -v
-  - npm -v
-  - npm install hint --no-save
-  - node node_modules/hint/dist/src/bin/hint.js ./ --debug
+  - npm install
+  - npm run test
