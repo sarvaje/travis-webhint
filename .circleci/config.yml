@@ -2,8 +2,8 @@ version: 2.1
 jobs:
   build:
     docker: 
-      - image: circleci/python:latest-node-browsers
+      - image: circleci/node:lts-browsers
     steps:
       - checkout # check out the code in the project directory
-      - run: npm install hint --no-save
-      - run: node node_modules/hint/dist/src/bin/hint.js https://webhint.io
+      - run: npm install
+      - run: npm run test

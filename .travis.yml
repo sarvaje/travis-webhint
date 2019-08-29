@@ -1,11 +1,10 @@
-language: python
+language: node_js
+node_js:
+- 10.16.2
 
 addons:
   chrome: stable
 
-before_install:
-- nvm install node
-
 script:
-  - npm install hint --no-save
-  - node node_modules/hint/dist/src/bin/hint.js https://webhint.io
+  - npm install
+  - npm run test
