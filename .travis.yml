@@ -5,6 +5,9 @@ node_js:
 addons:
   chrome: stable
 
+env:
+  - HINT_TRACKING=on
+
 script:
   - npm install
   - npm run test

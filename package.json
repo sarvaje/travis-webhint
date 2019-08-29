@@ -4,7 +4,7 @@
   "description": "Test how to integrate webhint with travis.",
   "main": "index.js",
   "scripts": {
-    "test": "hint https://webhint.io --debug --tracking=on"
+    "test": "hint https://webhint.io --debug"
   },
   "repository": {
     "type": "git",
